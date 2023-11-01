@@ -301,11 +301,6 @@ header {
     margin-left: 50px;
 }
 
-.header-svg {
-    margin-right: 10px;
-    fill: currentColor;
-}
-
 .info-cont {
     display: block;
     padding-top: 32px;
@@ -420,7 +415,6 @@ line-height: normal;
 
 .parag {
     color: #000;
-font-family: ;
 width: 1064px;
 margin-left: 100px;
 font-size: 30px;
@@ -445,172 +439,6 @@ line-height: normal;
     transform: scale(1.05); /* Значення масштабування при наведенні */
 }
 
-/* Наші переваги */
-.advantages {
-    padding-top: 94px;
-}
-
-.advantages-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.advantages-list > .item {
-    flex-basis: calc((100% - 90px) / 4);
-}
-
-.advantages-title {
-    font-style: normal;
-    font-weight: 700;
-
-    font-size: 14px;
-    line-height: 1.14;
-
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-    color: #212121;
-}
-
-.advantages-text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-
-    letter-spacing: 0.03em;
-
-    color: #757575;
-}
-.advantages-icon {
-    border-radius: 4px;
-    background: #f5f4fa;
-    text-align: center;
-    align-items: center;
-    padding: 30px 100px;
-    margin: 0 0 30px 0px;
-}
-
-.adwanteg-svg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    border-radius: 4px;
-    height: 120px;
-    margin-bottom: 30px;
-    background-color: #f5f4fa;
-}
-
-/* Чим ми займаємося  */
-.our-works-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.our-works-list > .item {
-    flex-basis: calc((100% - 60px) / 3);
-}
-
-/* Наша команда */
-
-.our-teem {
-    background-color: #f5f4fa;
-}
-
-.our-teem-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-}
-
-.our-teem-list > .item {
-    flex-basis: calc((100% - 90px) / 4);
-}
-.our-teem-title {
-    margin-top: 30px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #212121;
-}
-
-.our-teem-text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #757575;
-}
-
-.our-teem-li {
-    border-radius: 0px 0px 4px 4px;
-    background: #fff;
-    /* material shadow v1 */
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-    margin: 50px 0px;
-    transform: scale(1); /* Стандартне значення масштабування */
-    transition: transform 0.3s ease;
-}
-
-.our-teem-li:hover {
-    transform: scale(1.1); /* Значення масштабування при наведенні */
-    cursor: pointer;
-    list-style: none;
-}
-
-.social-list {
-    display: inline-flex;
-    padding-bottom: 30px;
-    list-style: none;
-}
-
-.social-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    fill: #afb1b8;
-    background-color: #fff;
-}
-
-.social-link:hover,
-.social-link:focus {
-    fill: #fff;
-    background-color: #2196f3;
-}
-
-.social-item {
-    width: 44px;
-    height: 44px;
-}
-
-.clients {
-    display: flex;
-}
-
-.clients-s {
-    border-radius: 4px;
-    border: 1px solid #afb1b8;
-    width: 40px;
-    height: 52px;
-    flex-shrink: 0;
-    display: flex;
-}
 
 /* Футер */
 .footer {
